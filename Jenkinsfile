@@ -8,7 +8,7 @@ pipeline {
 	stages {
 		stage('Checkout') {
 			steps {
-				git branch: 'main',
+				git branch: 'master',
 				url: 'https://github.com/jjunch/source-maven-java-spring-hello-webapp.git'
 			}
 		}
